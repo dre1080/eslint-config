@@ -26,7 +26,7 @@ JSON ESLint config example:
 
 ```json
 {
-  "extends": ["@dre1080/eslint-config"]
+  "extends": ["@dre1080"]
 }
 ```
 
