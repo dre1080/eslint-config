@@ -10,13 +10,13 @@ Install [eslint](https://eslint.io/), [prettier](https://prettier.io/) and `@dre
 
 **With Yarn**
 
-```
+```sh
 $ yarn add --dev eslint prettier @dre1080/eslint-config
 ```
 
 **With npm**
 
-```
+```sh
 $ npm install eslint prettier @dre1080/eslint-config --save-dev
 ```
 
@@ -30,17 +30,8 @@ JSON ESLint config example:
 }
 ```
 
-Add a `.prettierrc` config file:
+Add a prettier config in `package.json`:
 
 ```json
-{
-  "arrowParens": "always",
-  "bracketSpacing": true,
-  "printWidth": 100,
-  "semi": true,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "useTabs": false
-}
+"prettier": "@dre1080/prettier-config"
 ```
