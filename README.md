@@ -1,4 +1,4 @@
-# dre1080 ESlint Config
+# dre1080 ESLint Config
 
 [![npm (scoped)](https://img.shields.io/npm/v/@dre1080/eslint-config)](https://www.npmjs.org/package/@dre1080/eslint-config)
 

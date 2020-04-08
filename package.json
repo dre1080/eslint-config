@@ -1,7 +1,7 @@
 {
   "name": "@dre1080/eslint-config",
   "version": "1.0.0",
-  "description": "Sharable ESlint config for Nuxt projects",
+  "description": "Sharable ESLint config for Nuxt projects",
   "author": "Andrew Wayne <lifeandcoding@gmail.com>",
   "homepage": "https://github.com/dre1080/eslint-config",
   "repository": "dre1080/eslint-config",
