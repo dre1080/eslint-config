@@ -1,0 +1,29 @@
+{
+  "name": "@dre1080/eslint-config",
+  "version": "1.0.0",
+  "description": "Sharable ESlint config for Nuxt projects",
+  "author": "Andrew Wayne <lifeandcoding@gmail.com>",
+  "homepage": "https://github.com/dre1080/eslint-config",
+  "repository": "dre1080/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "dre1080",
+    "nuxt",
+    "eslint-config",
+    "eslint"
+  ],
+  "dependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-import-resolver-nuxt": "^1.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
+}
