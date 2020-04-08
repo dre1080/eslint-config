@@ -27,6 +27,7 @@ module.exports = {
   },
   rules: {
     'import/no-extraneous-dependencies': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'vue/attributes-order': 'error',
     'vue/camelcase': 'error',
     'vue/component-tags-order': [
