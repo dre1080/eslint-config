@@ -1,10 +1,10 @@
 {
-  "name": "@dre1080/eslint-config",
+  "name": "@dre1080/eslint-config-nuxt",
   "version": "1.0.0",
   "description": "Sharable ESLint config for Nuxt projects",
   "author": "Andrew Wayne <lifeandcoding@gmail.com>",
-  "homepage": "https://github.com/dre1080/eslint-config",
-  "repository": "dre1080/eslint-config",
+  "homepage": "https://github.com/dre1080/eslint-config-nuxt",
+  "repository": "dre1080/eslint-config-nuxt",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
