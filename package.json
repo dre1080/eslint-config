@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Sharable ESLint configs",
   "author": "Andrew Wayne <lifeandcoding@gmail.com>",
-  "homepage": "https://github.com/dre1080/eslint-config-nuxt",
+  "homepage": "https://github.com/dre1080/eslint-config",
   "repository": "dre1080/eslint-config",
   "license": "MIT",
   "main": "index.js",
