@@ -1,8 +1,8 @@
-# eslint-config-nuxt
+# eslint-config
 
-[![npm (scoped)](https://img.shields.io/npm/v/@dre1080/eslint-config-nuxt)](https://www.npmjs.org/package/@dre1080/eslint-config-nuxt)
+[![npm (scoped)](https://img.shields.io/npm/v/@dre1080/eslint-config)](https://www.npmjs.org/package/@dre1080/eslint-config)
 
-> A sharable eslint config object for [Nuxt.js](https://nuxtjs.org) projects.
+> Sharable eslint configs.
 
 ## Install
 
@@ -26,7 +26,25 @@ JSON ESLint config example:
 
 ```json
 {
-  "extends": ["@dre1080/eslint-config-nuxt"]
+  "extends": ["@dre1080/eslint-config"]
+}
+```
+
+This package also exposes other configs that can be used for specific types of projects.
+
+[`@dre1080/eslint-config/nuxt`](nuxt.js) for Nuxt.js-based projects:
+
+```json
+{
+  "extends": ["@dre1080/eslint-config/nuxt"]
+}
+```
+
+[`@dre1080/eslint-config/svelte`](svelte.js) for Svelte-based projects:
+
+```json
+{
+  "extends": ["@dre1080/eslint-config/svelte"]
 }
 ```
 
