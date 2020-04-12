@@ -6,18 +6,18 @@
 
 ## Install
 
-Install [eslint](https://eslint.io/), [prettier](https://prettier.io/) and `@dre1080/eslint-config-nuxt`:
+Install [eslint](https://eslint.io/), [prettier](https://prettier.io/) and `@dre1080/eslint-config`:
 
 **With Yarn**
 
 ```sh
-$ yarn add --dev eslint prettier @dre1080/eslint-config-nuxt
+$ yarn add --dev eslint prettier @dre1080/eslint-config
 ```
 
 **With npm**
 
 ```sh
-$ npm install eslint prettier @dre1080/eslint-config-nuxt --save-dev
+$ npm install eslint prettier @dre1080/eslint-config --save-dev
 ```
 
 ## Usage
