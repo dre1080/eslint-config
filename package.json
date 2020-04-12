@@ -1,5 +1,5 @@
 {
-  "name": "@dre1080/eslint-config-nuxt",
+  "name": "@dre1080/eslint-config",
   "version": "1.1.0",
   "description": "Sharable ESLint configs",
   "author": "Andrew Wayne <lifeandcoding@gmail.com>",
