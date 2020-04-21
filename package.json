@@ -1,7 +1,7 @@
 {
   "name": "@dre1080/eslint-config",
   "version": "2.0.0",
-  "description": "Sharable ESLint configs",
+  "description": "Sharable ESLint config",
   "author": "Andrew Wayne <lifeandcoding@gmail.com>",
   "homepage": "https://github.com/dre1080/eslint-config",
   "repository": "dre1080/eslint-config",
@@ -16,11 +16,8 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-import-resolver-nuxt": "^1.0.0",
-    "eslint-plugin-disable": "^2.0.1",
-    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-svelte3": "^2.7.3"
+    "eslint-plugin-prettier": "^3.0.1"
   },
   "peerDependencies": {
     "eslint": ">= 6"
