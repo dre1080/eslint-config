@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [require.resolve('./index.js')],
+  extends: [require.resolve('./index')],
   settings: {
     'import/core-modules': ['vue', 'vuex', 'tailwindcss'],
     'import/resolver': {
