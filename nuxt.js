@@ -1,7 +1,5 @@
-const { join } = require('path');
-
 module.exports = {
-  extends: join(__dirname, 'index.js'),
+  extends: [require.resolve('./index.js')],
   settings: {
     'import/core-modules': ['vue', 'vuex', 'tailwindcss'],
     'import/resolver': {
