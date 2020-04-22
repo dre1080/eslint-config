@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'airbnb-base'
+    'airbnb-base',
     '@nuxtjs',
     'prettier',
     'prettier/vue',
