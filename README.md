@@ -32,11 +32,19 @@ JSON ESLint config example:
 
 This package also exposes other configs that can be used for specific types of projects.
 
-[`@dre1080/eslint-config/nuxt`](nuxt.js) for Nuxt.js-based projects:
+[`@dre1080/eslint-config/nuxt`](nuxt.js) for [Nuxt.js](https://nuxtjs.org/) based projects:
 
 ```json
 {
   "extends": ["@dre1080/eslint-config/nuxt"]
+}
+```
+
+[`@dre1080/eslint-config/nuxt-ts`](nuxt-ts.js) for [Nuxt TypeScript](https://typescript.nuxtjs.org/) based projects:
+
+```json
+{
+  "extends": ["@dre1080/eslint-config/nuxt-ts"]
 }
 ```
 
