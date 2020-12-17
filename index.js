@@ -11,11 +11,9 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
-    '@nuxtjs',
     'prettier',
     'prettier/vue',
     'plugin:prettier/recommended',
-    'plugin:nuxt/recommended',
   ],
   plugins: ['prettier'],
   rules: {

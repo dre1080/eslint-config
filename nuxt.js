@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [require.resolve('./index')],
+  extends: [require.resolve('./index'), '@nuxtjs', 'plugin:nuxt/recommended'],
   settings: {
     'import/core-modules': ['vue', 'vuex', 'tailwindcss'],
     'import/resolver': {
