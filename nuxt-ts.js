@@ -1,6 +1,10 @@
 const base = require('./index');
 
 module.exports = {
+  parserOptions: {
+    project: ['./tsconfig.json'],
+    extraFileExtensions: ['.vue'],
+  },
   extends: [
     'airbnb-typescript/base',
     '@nuxtjs/eslint-config-typescript',
