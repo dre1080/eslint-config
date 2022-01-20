@@ -9,12 +9,7 @@ module.exports = {
     parser: 'babel-eslint',
     sourceType: 'module',
   },
-  extends: [
-    'airbnb-base',
-    'prettier',
-    'prettier/vue',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['airbnb-base', 'prettier', 'prettier/vue', 'plugin:prettier/recommended'],
   plugins: ['prettier'],
   rules: {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
