@@ -23,5 +23,16 @@ module.exports = {
       },
     },
   },
-  rules: base.rules,
+  rules: {
+    ...base.rules,
+    'import/no-unresolved': 'off',
+    'import/extensions': [
+      'error',
+      {
+        ts: 'never',
+        js: 'never',
+        vue: 'never',
+      },
+    ],
+  },
 };
