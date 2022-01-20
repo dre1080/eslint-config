@@ -6,20 +6,13 @@ module.exports = {
     es2020: true,
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
     sourceType: 'module',
+    requireConfigFile: false,
   },
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
+  extends: ['airbnb-base', 'plugin:vue/recommended', 'plugin:prettier/recommended'],
   rules: {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
-    'vue/attributes-order': 'error',
-    'vue/camelcase': 'error',
-    'vue/component-tags-order': [
-      'error',
-      {
-        order: ['template', 'script', 'style'],
-      },
-    ],
     'vue/max-len': [
       'error',
       {
@@ -30,7 +23,6 @@ module.exports = {
       },
     ],
     'vue/no-reserved-component-names': 'error',
-    'vue/order-in-components': 'error',
     'vue/v-on-function-call': 'error',
   },
 };
