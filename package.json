@@ -1,8 +1,8 @@
 {
   "name": "@dre1080/eslint-config",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Sharable ESLint config",
-  "author": "Andrew Wayne <lifeandcoding@gmail.com>",
+  "author": "ando <lifeandcoding@gmail.com>",
   "homepage": "https://github.com/dre1080/eslint-config",
   "repository": "dre1080/eslint-config",
   "license": "MIT",
@@ -11,17 +11,23 @@
     "access": "public"
   },
   "dependencies": {
-    "@nuxtjs/eslint-config": "^5.0.0",
-    "@nuxtjs/eslint-config-typescript": "^5.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-prettier": "^7.0.0",
+    "@babel/core": "^7.16.10",
+    "@babel/eslint-parser": "^7.16.5",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-nuxt": "^1.0.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.0.1"
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.14.1",
+    "prettier": "^2.5.1"
   },
   "peerDependencies": {
     "eslint": ">= 6"
-  }
+  },
+  "devDependencies": {
+    "@dre1080/prettier-config": "^1.1.0"
+  },
+  "prettier": "@dre1080/prettier-config"
 }

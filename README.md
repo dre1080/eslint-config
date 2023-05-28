@@ -40,14 +40,6 @@ This package also exposes other configs that can be used for specific types of p
 }
 ```
 
-[`@dre1080/eslint-config/nuxt-ts`](nuxt-ts.js) for [Nuxt TypeScript](https://typescript.nuxtjs.org/) based projects:
-
-```json
-{
-  "extends": ["@dre1080/eslint-config/nuxt-ts"]
-}
-```
-
 Add a prettier config in `package.json`:
 
 ```json
